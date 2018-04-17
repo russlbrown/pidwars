@@ -155,20 +155,20 @@ def main():
     clock = pygame.time.Clock()
     random.seed()
     #=======================USER EDITABLE VARRIABLES=========================
-    number_of_teams = 2     #2-6
-    players_per_team = 80//number_of_teams   #set the number of players per team
+    number_of_teams = 2     # 2-6
+    players_per_team = 80//number_of_teams   # set the number of players per team
     field_length = 60
     field_width = 40 
     sight_range = 10
-    time_to_start_hunting = 80 #frames
+    time_to_start_hunting = 80 # frames
     
     dt = 1.0
-    AirDragCoeff = 0.94 #max speed = max_thrust * (1/airDrag - 1)
+    AirDragCoeff = 0.94 # max speed = max_thrust * (1/airDrag - 1)
     
     attack_range = 7.0
-    attack_delay = 20 #frames between attack
+    attack_delay = 20 # frames between attack
 
-    wall_bounce = -1.0 #-1 means rebound with the same velocity
+    wall_bounce = -1.0 # -1 means rebound with the same velocity
 
     red =       [1.0, 0.0, 0.0]
     light_red = [1.0, 0.4, 0.4]
