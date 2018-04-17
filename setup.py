@@ -12,7 +12,8 @@ config = {
 	'download_url': 'https://github.com/russlbrown/pidwars.git',
 	
 	'version': '0.1',
-	'install_requires': ['nose'],
+	'install_requires': ['nose', 'pygame', 'pyOpenGL'],
+
 	'packages': ['pidwars'],
 	'scripts': []
 	
