@@ -4,16 +4,16 @@ except ImportError:
 	from distutils.core import setup
 
 config = {
-	'name': 'projectname',
-	'description': 'My Project',
+	'name': 'PIDWars',
+	'description': 'Autonomous bots battle it out on teams',
 	'author': 'Russ Brown',
 	'author_email': 'russbrown@protonmail.com',
 	'url': 'home page for the package',
-	'download_url': 'Where to download it.',
+	'download_url': 'https://github.com/russlbrown/pidwars.git',
 	
 	'version': '0.1',
 	'install_requires': ['nose'],
-	'packages': ['NAME'],
+	'packages': ['pidwars'],
 	'scripts': []
 	
 	}
